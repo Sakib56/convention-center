@@ -8,9 +8,11 @@
     <!-- fonts awesome -->
     <script src="https://kit.fontawesome.com/b23f0e0be8.js" crossorigin="anonymous"></script>
     <!-- bootstrap css file -->
-    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    
 </head>
-<body class="container">
+<body class="container mx-auto">
     <header>
         <!-- nav section -->
         <nav class="navbar navbar-expand-lg bg-white">
@@ -39,58 +41,204 @@
           </nav>
         <!-- banner section -->
         <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/banner.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block p-5">
-                  <h2 class="">The perfect venue for your
-                    <br> next event</h2>
-                  <p class="">Amet minim mollit non deserunt ullamco est sit aliqua  <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                  <button type="button" class="btn btn-light text-primary fw-semibold btn-lg" disabled>Book Now</button>
-                </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none  d-md-block">
+                <h1 class="fw-bold">The perfect venue for your <br> next event</h1>
+                <p class="">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                  dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <button class="border-0 text-primary mb-5 rounded-2 fw-bold py-2 px-5">Book Now</button>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <img src="images/banner-2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none  d-md-block">
+                <h1 class="fw-bold ">The perfect venue for your <br> next event</h1>
+                <p class="">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                  dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <button class="border-0 text-primary mb-5 rounded-2 fw-bold py-2 px-5">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-3.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-none d-md-block">
+                <h1 class="fw-bold">The perfect venue for your <br> next event</h1>
+                <p class="">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                  dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <button class="border-0 text-primary mb-5 rounded-2 fw-bold py-2 px-5">Book Now</button>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
     </header>
     <main>
-        <div class="row mt-5 p-5 align-items-center">
-            <div class="col-md-6">
-                <img src="images/wedding.png" alt="">
-            </div>
-            <div class="col-md-6">
-                <h2>Every moment is Precious </h2>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button type="button" class="btn btn-primary btn-lg">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
-                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
-                      <img src="..." class="rounded me-2" alt="...">
-                      <strong class="me-auto">Bootstrap</strong>
-                      <small>11 mins ago</small>
-                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                    </div>
-                    <div class="toast-body">
-                      Hello, world! This is a toast message.
+      <!-- every moment section -->
+      <section>
+            <div class="row mt-5 p-5 align-items-center">
+              <div class="col-md-6">
+                  <img class="w-100" src="images/wedding.png" alt="">
+              </div>
+              <div class="col-md-6 position-relative">
+                  <h2>Every moment is Precious </h2>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                  <button type="button" class="btn btn-primary btn-lg">Explore our album <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                  <div class="toast show align-items-center position-absolute  top-50 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex border-start border-5 border-primary rounded-1">
+                      <div class="toast-body">
+                        <i class="fa-solid fa-gift text-primary"></i>
+                        20% off to the next booking
+                      </div>
+                      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                     </div>
                   </div>
+              </div>
+          </div>
+      </section>
+      <!-- our package section -->
+      <section class="my-5">
+          <h2 class="text-center fw-bold mb-5">Our Package</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col p-5">
+                  <h3 class="fw-bold">$300</h3>
+                  <h4 class="fw-bold mb-3">Business fair</h4>
+                  <p>For most businesses event like book fair, craft fair.</p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> limited space access
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Security facility
+                 </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> event support
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary border-0"> </i> Decoration design 
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Per day bill
+                  </p>
+                  <button class="bg-danger-subtle fw-bold text-primary py-2 px-5 border-0 rounded-5">Choose plan</button>
+                </div>
+                <div class="col p-5">
+                  <h3 class="fw-bold">$500</h3>
+                  <h4 class="fw-bold mb-3">Wedding music</h4>
+                  <p>For most businesses event like book fair, craft fair.</p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> limited space access
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Security facility
+                 </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> event support
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary border-0"> </i> Decoration design 
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Per day bill
+                  </p>
+                  <button class="bg-danger-subtle fw-bold text-primary py-2 px-5 border-0 rounded-5">Choose plan</button>
+                </div>
+                <div class="px-2">
+                  <div class="col p-4 px-5 bg-primary rounded-5 text-white position-relative">
+                  
+                    <h3 class="fw-bold">$800</h3>
+                    <h4 class="fw-bold mb-3">Wedding plus</h4>
+                    <p>For most businesses event like book fair, craft fair.</p>
+                    <p>
+                      <i class="fa-regular fa-circle-check"></i> limited space access
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-circle-check "></i> Security facility
+                   </p>
+                    <p>
+                      <i class="fa-regular fa-circle-check "></i> event support
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-circle-check border-0"> </i> Decoration design 
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-circle-check"></i> Per day bill
+                    </p>
+                    <button class="bg-danger-subtle fw-bold text-primary py-2 px-5 border-0 rounded-5">Choose plan</button>
+                    <button class="position-absolute top-0 end-0 py-2 px-4 fw-bold text-white bg-danger rounded-5 border-0">hot</button>
+                </div>
+                </div>
+                <div class="col p-5">
+                  <h3 class="fw-bold">$1200</h3>
+                  <h4 class="fw-bold mb-3">Corporate event</h4>
+                  <p>For most businesses event like book fair, craft fair.</p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> limited space access
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Security facility
+                 </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> event support
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary border-0"> </i> Decoration design 
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-circle-check text-primary"></i> Per day bill
+                  </p>
+                  <button class="bg-danger-subtle fw-bold text-primary py-2 px-5 border-0 rounded-5">Choose plan</button>
+                </div>
+               
+          </div>
+      </section>
+ 
+      <!-- Happy client section -->
+      <section class="my-5 py-5">
+        <h2 class="text-center fw-bold mb-5">Happy Client says</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col text-center p-3">
+              <div class=" p-5 shadow">
+                <p class="mb-3">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <img src="images/person 1.png" alt="">
+                <h3>Regina Miles</h3>
+                <p>banker</p>
+              </div>
             </div>
-        </div>
+            <div class="col text-center p-3">
+              <div class="p-5 shadow">
+                <p class="mb-3">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <img src="images/person 2.png" alt="">
+                <h3>Regina Miles</h3>
+                <p>banker</p>
+              </div>
+            </div>
+            <div class="col text-center p-3">
+              <div class="p-5 shadow">
+                <p class="mb-3">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <img src="images/person 3.png" alt="">
+                <h3>Regina Miles</h3>
+                <p>banker</p>
+              </div>
+            </div>
+          </div>
+      </section>
     </main>
 
     <!-- bootstrap js file -->
-    <script src="Js_file/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
